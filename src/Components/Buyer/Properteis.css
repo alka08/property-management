@@ -1,0 +1,122 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;500&display=swap');
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn-1 {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn-1:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(to bottom left, #7fdee098 40%rgba(118, 158, 169, 0.686)a9 100%);
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #2d8a74 40%, #193942 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: 'Tajawal', sans-serif;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-family: 'Tajawal', sans-serif;
+
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+.card h4{
+    padding-top: 10px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+.card h5{
+    margin-top: -5px;
+    font-family: 'Tajawal', sans-serif;
+}
+.List_content{
+   height: 80vh;
+   width: 97%; 
+   margin:1.5% ;
+   background: linear-gradient(to bottom left, #2d8a74 40%, #193942 100%);
+
+   padding: 2%;
+}
+
+
+
+@media (min-width: 40rem) {
+    .cards_item {
+      height: 600px;
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+  

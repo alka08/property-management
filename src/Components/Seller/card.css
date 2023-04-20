@@ -1,0 +1,67 @@
+.container-card{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    width: 90%;
+    margin: 4% auto;
+    margin-top: 6.5%;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.card{
+    /* position: relative;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),inset -5px -5px -5px rgba(255,255,255,0.5); */
+    border: 0px solid white;
+    background: linear-gradient(to right, #a2eea2, #ffe3d9f6);  
+}
+.card-title{
+    float: left;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(59, 55, 55);
+    font-size: 1.3rem;
+    margin-top:-1%;
+}
+.card-title-1{
+    margin-top: -1%;
+    color: rgb(41, 38, 38);
+    
+}
+.card-image{
+    height: 250px;
+    width: 95%;
+    border-radius: 20px;
+    margin: 5px;
+    border: 5px inset rgba(255, 255, 255, 0.978);
+}
+.card-image:hover{
+    box-shadow: rgba(0, 0, 0, 0.404) 2.4px 2.4px 3.2px;
+    width: 95.5%;
+    height: 251px;
+    transition: 0.2s all ease;
+}
+.card-text{
+    border-left: 3px solid rgb(0, 153, 255);
+    color: rgb(0, 213, 255);
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: rgba(252, 255, 255, 0.97);
+    padding: 4px;
+    width: 93%;
+    margin-left: 3%;
+}
+::-webkit-scrollbar{
+    width: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(156, 227, 232); 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 10px;
+  }

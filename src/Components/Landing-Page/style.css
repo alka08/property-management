@@ -1,0 +1,320 @@
+/*.................................................. Register Form ........................................*/
+.background{
+    height: 100vh;
+    width: 100%;
+    background-color: #50a3a2;
+    position: absolute;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.container{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 20px;
+    background-color: rgba(175, 175, 175, 0.185);
+}
+.form {
+
+    margin: 6% auto;
+    margin-top: 2rem;
+}
+
+.registerh1{
+    color: white;
+    font-weight: 700;
+    transform: rotate(2deg);
+    padding: 0.2rem 1.2rem;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    background-color: hsl(138, 98%, 21%);
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    width: 150px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+input {
+    border: 2px solid rgb(56, 48, 48);
+    background-color: rgba(59, 52, 52, 0.2);
+    width: 30px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    font-size: 18px;
+    color: black;
+    border-radius: 20px;
+    font-weight: 300;
+    outline: none;
+    
+}
+input:focus {
+    border: 1px solid rgb(2, 158, 179);
+  }
+
+
+.container-1 {
+    overflow: hidden;
+   /* box-shadow: 8px 20px  rgba(3, 12, 15, 0.596); */
+   height: 90%;
+   width: 95%;
+   background-color: rgba(36, 237, 227, 0.696);
+   margin: 6% auto;
+   border-radius: 30px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   margin-top: 7%;
+}
+
+button {
+   width: 40%;
+   appearance: none;
+   outline: 0;
+   background-color: white;
+   border: 0;
+   padding: 10px 15px;
+   color: #50a3a2;
+   border-radius: 10px;
+   font-weight: bolder;
+   font-size: 21px;
+   letter-spacing: 1px;
+   margin-left: 0px;
+   
+}
+
+button:hover {
+   /* background-color: rgb(14, 13, 13); */
+   cursor: pointer;
+   /* color: white; */
+}
+
+button:active {
+   box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+   transform: translateY(4px);
+   color: white;
+   background-color: green;
+
+}
+
+/* h2{
+   color: white;
+   text-shadow: 2px 2px 1px rgb(116, 5, 69);
+   font-weight: bolder;
+   transform: rotate(6deg);
+   border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+   background-color: hsl(138, 86%, 67%);
+   width: 20rem;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+} */
+.radio{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    margin-left: -10px;
+    border-radius: 20px;
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    margin: 8px;
+    width:340px;
+    height: 50px;
+
+}
+
+.radio:hover{
+    border: 1px solid rgba(14, 142, 185, 0.998);
+
+}
+.backtohome:active {
+    box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+    color: white;
+   background-color: black;
+ }
+.role{
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding:1;
+    margin: 10px;
+    margin-top: 12px; 
+    height: 25px;
+    margin-left: 2.3rem;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    outline: none;
+   color: red;
+    
+}
+
+span{
+    margin-left: -3px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: black;
+    font-size: 1.1rem;
+}
+h5{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: rgb(110, 102, 102);
+}
+
+/* Login page */
+
+
+
+.background-2{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.container-2-2{
+    width: 430px;
+    height: 350px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 20px;
+    background-color: rgba(91, 104, 91, 0.275);
+}
+form {
+
+    margin: 6% auto;
+    margin-top: 2rem;
+}
+
+.loginh1{
+    color: white;
+    font-weight: 700;
+    transform: rotate(2deg);
+    padding: 0.2rem 1.2rem;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    background-color: hsl(180, 94%, 20%);
+    font-size: 1.5rem;
+    width: 150px;
+    margin-left: 100px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 340px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    font-size: 18px;
+    color: black;
+    border-radius: 20px;
+    font-weight: 300;
+    outline: none;
+    
+}
+
+
+.container-2 {
+    overflow: hidden;
+   /* box-shadow: 8px 20px  rgba(3, 12, 15, 0.596); */
+   height: 90%;
+   width: 95%;
+   background-color: rgba(121, 244, 231, 0.746);
+   margin: 6% auto;
+   border-radius: 30px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+
+.Login {
+   width: 99%;
+   appearance: none;
+   outline: 0;
+   background-color: white;
+   border: 0;
+   padding: 10px 15px;
+   color: #50a3a2;
+   border-radius: 120px;
+   font-weight: bolder;
+   font-size: 21px;
+   letter-spacing: 1px;
+   margin-left: 4px;
+   
+}
+
+button:hover {
+   /* background-color: rgb(14, 13, 13); */
+   cursor: pointer;
+   /* color: white; */
+}
+
+button:active {
+   box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+   transform: translateY(4px);
+   color: white;
+   /* background-color: green; */
+
+}
+
+.backtohome{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-left:48%;
+    margin-top: 0.5%;
+}
+.background-2 .backtohome{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-left:49%;
+    margin-top: 5%;
+}
+.backtohome:active {
+    box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+    color: white;
+   background-color: black;
+ }
+ .Login:active {
+    box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+    color: white;
+   background-color: black;
+ }

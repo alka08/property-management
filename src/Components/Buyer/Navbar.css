@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300;1,500&display=swap");
+
+
+.navbar_buyer{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(109, 201, 246);
+    justify-content: center;
+
+}
+.navbar_buyer .link{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    margin: 15px;
+    color: white;
+}
+.buyer_logout{
+    position:absolute;
+    margin-top: 7px;
+    height: 50px;
+    width: 110px;
+    margin-left: 25%;
+    color:black;
+    background-color: rgba(182, 237, 244, 0.646);
+    border: 2px solid rgb(8, 114, 111);
+    border-left: none;
+    border-right: none;
+}
+.buyer_logout p{
+    margin-top: -5px;
+}
+.buyer_logout:active {
+    box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+    font-weight: bold;
+    border: 3px solid rgb(202, 240, 237);
+    border-left: none;
+    border-right: none;
+    color: white;
+    background-color: #2f4254;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 850px) {
+    .buyer_logout{
+        margin-left: 2%;
+        height: 50px;
+        width: auto;
+    }
+    .navbar_buyer .link{
+  
+        font-size: 1rem;
+      
+    }
+   
+    .navbar_buyer{
+       justify-content: flex-start;
+
+    }
+  }
+  

@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300;1,500&display=swap");
+
+
+.buyer_page{
+ overflow-y: scroll;
+ height: 100vh;
+ width: 100%;
+ 
+}
+.buyer_body_content{
+    margin: 9% auto;
+    margin-left: 19%;
+    font-size: 10rem;
+    font-family: "Poppins", sans-serif;
+
+}

@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300;1,500&display=swap");
+
+.admin_top{
+    height:10vh;
+    width: 100%;
+    background-color: rgb(31, 68, 68);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+
+}
+.admin_left{
+    border-right:2px solid white ;
+    height:90vh;
+    width: 50%;
+    background-color: rgb(57, 78, 78);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    /* text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    padding: 1%;
+    font-size: 2rem;
+
+}
+.admin_right{
+    height:90vh;
+    width: 50%;
+    padding: 1%;
+    margin-top: -90vh;
+    margin-left: 50%;
+    background-color: rgb(57, 75, 75);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    /* text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    font-size: 2rem;
+
+}
+.admin_top_header{
+    /* margin: 1%; */
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(160, 170, 167, 0.69);
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    
+}
+.admin_table{
+    /* margin: 1%; */
+    margin-top: 1%;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    
+}
+.table_name{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(25, 64, 64);
+}
+.admin_top_body_data{
+   margin-top: 1%;
+   padding: 5px;
+   width: 100%;
+   border-radius: 10px;
+   height: auto;
+   background-color: rgb(15, 51, 58);
+   display: flex;
+}
+.admin_top_body_data:hover{
+    background-color: rgb(4, 25, 29);
+  
+}
+.admin_top_body_data li{
+    list-style: none;
+   text-align: center;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 20px;
+    justify-content: center;
+}
+.admin_btn{
+    height: 48px ;
+    width: 48px;
+    margin-top: 5px;
+    margin-left:1%;
+    border-radius:120px ;
+    padding: 0;
+    background-color: transparent;
+}
+.approve{
+    margin-left: 1%;
+    padding: 0;
+}
+.admin_btn:active{
+    background-color: transparent;
+}
+.admin_top_body_data .name{
+   font-size: 20px;
+   height: auto;
+   width: 250px;
+   border-right: 1px solid white;
+   margin-left: 10px;
+   display: flex;
+   padding: 5px;
+   border-radius: 5px;
+   background-color: rgba(3, 225, 241, 0.562);
+}
+.admin_top_body_data .price{
+    font-size: 20px;
+    height: auto;
+    width: 160px;
+    border-right: 1px solid white;
+    margin-left: 10px;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(42, 167, 73, 0.589);
+ }
+ .admin_top_body_data .address{
+    font-size: 20px;
+    height: auto;
+    width: 200px;
+    border-right: 1px solid white;
+    margin-left: 10px;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(196, 50, 81, 0.521);
+ }
+ .admin_top_body_data .buttons{
+    font-size: 20px;
+    height: auto;
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    border-left: none;
+    border-right: none;
+    margin-left: 10px;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(6, 129, 129, 0.295);
+ }
+ 
